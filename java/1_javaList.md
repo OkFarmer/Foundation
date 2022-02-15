@@ -1,0 +1,47 @@
+## **Java**
+
+- Managed - Unmanaged 언어의 차이는 무엇이고 어떤 장, 단점이 있나요?
+- Java 접근 제어자에는 무엇이 있는지 설명해주시고 Protect와 Private는 어느 시점에 어떻게 사용될 수 있는지 이야기 해주세요.
+- Garbage Collector은 무엇이고, Parallel GC와 CMS GC, G1 GC의 큰 차이는 무엇인지 설명해주세요. (mark-sweep-compact, concurrency-sweep, garbage-first)
+- Java 8 버전에 추가된 중요 기능들에 대하여서 설명해주세요.
+- Java는 Call By Value일까요, Call By Reference 일까요?
+- Shallow Copy와 Deep Copy의 차이는 무엇인가요? 자바에서 Deep Copy를 하기 위해서는 무엇을 사용하여야 하나요?
+- Java Reflection이란 무엇이고, 어떨 때 사용되는 것인가요?
+- Java Instrumentation이란 무엇이고 사용했을 때 어떤 장점이 있을까요?
+- Java Stream API의 특징은 무엇이 있나요?
+- Java Lambda는 왜 만들어졌고, 어느 때 주로 사용할까요?
+- Java의 Functional interface는 무엇인가요?
+- foreach를 사용할 수 있는 자료구조는 어떤 인터페이스를 상속 받고 있나요?
+- iterator와 iterable 차이는 무엇인가요?
+- Fast-fail iterator는 무엇이고 어떤 것을 위해 사용되는 건가요?
+- 자바의 synchronized 키워드에 대해 설명해주시고 Reentrant Lock와의 차이는 무엇인지 말씀해주세요.
+- Java의 synchronized Lock 범위에 대해서 알려주세요. (Class Lock, Instance Lock)
+- volatile 키워드에 대해 설명해 주세요.
+- atomic Type과 CAS는 무엇이고 언제 사용되는 것인가요?
+- 하나의 쓰기 스레드와 여러 읽기 스레드가 존재할 때 사용되어야 하는 Java의 동기화 기능은 무엇이고 어떻게 동작하게 되는지 설명해주세요.
+- 스레드에서 Race condition에 대해서 설명해주세요.
+- Java final 키워드에 대해서 설명해주세요. 각각의 쓰임에 따라 어떻게 동작하나요? (Class, Variable)
+- String이 final인 이유는 무엇인가요?
+- Wrapper Class란 무엇이고 Primitive Type과의 차이는 무엇인가요?
+- 객체 지향의 클래스, 객체, 인스턴스 차이에 대해서 설명해 주세요.
+- 불변 객체는 무엇이고 Java에서 어떻게 구현할까요?
+- Interface와 Abstract Class의 차이는 무엇인가요?
+- Interface가 사용되면 좋은 시점은 언제일까요?
+- Abstract Class가 사용되면 좋은 시점은 언제일까요?
+- Interface와 Abstract Class를 같이 상속받는 경우에는 왜 그렇게 작성하였을까요?
+- 데이터 직렬화(Serialization)과 역직렬화(Deserialization)에 대해서 설명해 주세요.
+- Java Serialization은 왜 만들어졌고, 어떤 단점들이 있을까요?
+- Java Generic에 대해서 설명해 주세요.
+- Java Generic의 반공변, 공변, 무공변은 무엇인지 설명해주세요.
+- hashCode의 의미는 무엇인가요?
+- 객체 지향 프로그래밍을 왜 사용한다고 생각하시나요?
+- Array와 ArrayList의 차이점은 무엇인가요?
+- Java Compiler는 문자열 연산 최적화를 어떻게 진행하나요? (String Builder, String...)
+- SringBuilder를 사용하는 것과 String을 사용하여 연산하는 것에서 어떠한 큰 차이가 존재할까요?
+- Stack을 사용하지 못하는 상황에서 대체할 수 있는 Collection은 무엇이 있을까요?
+- Vector와 Stack을 사용하지 않는 이유는 무엇인가요?
+- Lock Stripping은 무엇이고 어떠한 자료구조가 해당 방식을 구현하였나요?
+- HashMap에 대해서 설명해주시고, Hash Collision 발생 시 자바는 어떻게 대처하나요?
+- Hash Collision이 많이 발생할 경우 어떤 최적화가 진행될까요?
+- ConcurrentHashMap은 어떤 방식으로 스레드 동시성을 보장하나요?
+- CopyOnWriteArrayList은 어떤 방식으로 스레드 동시성을 보장하나요?
