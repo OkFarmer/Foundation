@@ -7,10 +7,12 @@
 - iterable의 역할은 하위클래스에서 iterator()을 구현하게 만드는 것이다
 
 - Iterator 인터페이스 </br>
-    public interface Iterable<T> </br>
-    { </br>
-        Iterator<T> iterator(); </br>
-    } </br>
+    ```java
+    public interface Iterable<T> 
+    { 
+        Iterator<T> iterator();
+    } 
+    ```
 
 
 ---
@@ -42,11 +44,15 @@
     Collection Interface : Set, List 등
 
 ## iterator 사용 예시
-- List<String> list = new ArrayList<>(Arrays.asList("1", "2", "3"));
+    ```java
+    List<String> list = new ArrayList<>(Arrays.asList("1", "2", "3"));
 
     Iterator<String> itrt = list.iterator();
     while (itrt.hasNext()) {
         System.out.print(itrt.next());
     }
+    ```
+    ```java
     // 출력
     123
+    ```
