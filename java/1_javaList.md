@@ -12,7 +12,6 @@
 - Java Lambda는 왜 만들어졌고, 어느 때 주로 사용할까요?
 - Java의 Functional interface는 무엇인가요?
 - foreach를 사용할 수 있는 자료구조는 어떤 인터페이스를 상속 받고 있나요?
-- iterator와 iterable 차이는 무엇인가요?
 - Fast-fail iterator는 무엇이고 어떤 것을 위해 사용되는 건가요?
 - 자바의 synchronized 키워드에 대해 설명해주시고 Reentrant Lock와의 차이는 무엇인지 말씀해주세요.
 - Java의 synchronized Lock 범위에 대해서 알려주세요. (Class Lock, Instance Lock)
