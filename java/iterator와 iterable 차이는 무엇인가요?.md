@@ -28,14 +28,20 @@
 
 - 어떤 컬렉션이라도 동일한 방식으로 접근이 가능하여 그 안의 항목에 접근할 수 있는 방법 제공(다형성) =>  코드의 일관성을 유지하여 재사용성을 극대화할 수 있다.
 
-- Iterator의 메소드 
+- Iterator 인터페이스
+    ```java
     public interface Iterator<E>
-{
+    {
     * 메소드 호출 순서대로
-    1. boolean hasNext() : 다음 요소에 읽어 올 요소가 있는지 확인 하는 메소드 있으면 true, 없으면 false 를 반환한다
-    2. E next();  : 다음 요소를 가져온다
-    3. void remove(); : next()로 가져온 element를 삭제할 수 있다
+        boolean hasNext()
+        E next();
+        void remove();
 }
+|자료형|메소드|기능|
+|------|---|---|
+|boolean|hasNext()|다음 요소에 읽어 올 요소가 있는지 확인 하는 메소드 있으면 true, 없으면 false 를 반환한다|
+|E|next()|다음 요소를 가져온다|
+|void|remove()| next()로 가져온 element를 삭제할 수 있다|
 
 
 * Java Collection Framework?
@@ -44,7 +50,7 @@
     Collection Interface : Set, List 등
 
 ## iterator 사용 예시
-- 소스코드
+- 코드
     ```java
     List<String> list = new ArrayList<>(Arrays.asList("1", "2", "3"));
 
