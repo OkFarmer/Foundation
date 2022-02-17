@@ -6,11 +6,11 @@
 - iterator() 메소드가 추상메소드로 선언되어있다
 - iterable의 역할은 하위클래스에서 iterator()을 구현하게 만드는 것이다
 
-- Iterator 인터페이스
-    public interface Iterable<T>
-    {
-        Iterator<T> iterator();
-    }
+- Iterator 인터페이스 </br>
+    public interface Iterable<T> </br>
+    { </br>
+        Iterator<T> iterator(); </br>
+    } </br>
 
 
 ---
