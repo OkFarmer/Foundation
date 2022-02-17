@@ -51,8 +51,7 @@
     while (itrt.hasNext()) {
         System.out.print(itrt.next());
     }
-    ```
-    ```java
+   
     // 출력
     123
     ```
