@@ -44,6 +44,7 @@
     Collection Interface : Set, List 등
 
 ## iterator 사용 예시
+- 소스코드
     ```java
     List<String> list = new ArrayList<>(Arrays.asList("1", "2", "3"));
 
