@@ -38,11 +38,11 @@
     }
     ```
 - 메소드 호출 순서대로
-|자료형|메소드|기능|
-|------|---|---|
-|boolean|hasNext()|다음 요소에 읽어 올 요소가 있는지 확인 하는 메소드 있으면 true, 없으면 false 를 반환한다|
-|E|next()|다음 요소를 가져온다|
-|void|remove()| next()로 가져온 element를 삭제할 수 있다|
+    |자료형|메소드|기능|
+    |------|---|---|
+    |boolean|hasNext()|다음 요소에 읽어 올 요소가 있는지 확인 하는 메소드 있으면 true, 없으면 false 를 반환한다|
+    |E|next()|다음 요소를 가져온다|
+    |void|remove()| next()로 가져온 element를 삭제할 수 있다|
 
 
 * Java Collection Framework? </br>
