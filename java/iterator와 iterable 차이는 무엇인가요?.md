@@ -6,16 +6,15 @@
 - iterator() 메소드가 추상메소드로 선언되어있다
 - iterable의 역할은 하위클래스에서 iterator()을 구현하게 만드는 것이다
 
-public interface Iterator<E>
-{
-    boolean hasNext();
-    E next();
-    void remove();
-}
+- Iterator 인터페이스
+    public interface Iterable<T>
+    {
+        Iterator<T> iterator();
+    }
 
 
 ---
-## iterator 인터페이스
+# iterator 인터페이스
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FAxXDw%2FbtqCLMqdXdQ%2FMI3Mgh8EddfpzJ7l3TKPL0%2Fimg.png)
 - *Java 컬렉션 클래스의 데이터를 하나씩 읽어올 때 사용
@@ -43,11 +42,11 @@ public interface Iterator<E>
     Collection Interface : Set, List 등
 
 ## iterator 사용 예시
-List<String> list = new ArrayList<>(Arrays.asList("1", "2", "3"));
+- List<String> list = new ArrayList<>(Arrays.asList("1", "2", "3"));
 
-Iterator<String> itrt = list.iterator();
-while (itrt.hasNext()) {
-    System.out.print(itrt.next());
-}
-// 출력
-123
+    Iterator<String> itrt = list.iterator();
+    while (itrt.hasNext()) {
+        System.out.print(itrt.next());
+    }
+    // 출력
+    123
