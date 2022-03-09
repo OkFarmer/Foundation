@@ -22,7 +22,6 @@
 - Java final 키워드에 대해서 설명해주세요. 각각의 쓰임에 따라 어떻게 동작하나요? (Class, Variable)
 - String이 final인 이유는 무엇인가요?
 - Wrapper Class란 무엇이고 Primitive Type과의 차이는 무엇인가요?
-- 객체 지향의 클래스, 객체, 인스턴스 차이에 대해서 설명해 주세요.
 - 불변 객체는 무엇이고 Java에서 어떻게 구현할까요?
 - Interface와 Abstract Class의 차이는 무엇인가요?
 - Interface가 사용되면 좋은 시점은 언제일까요?
