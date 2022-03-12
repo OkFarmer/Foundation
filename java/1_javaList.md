@@ -11,7 +11,6 @@
 - Java Stream API의 특징은 무엇이 있나요?
 - Java Lambda는 왜 만들어졌고, 어느 때 주로 사용할까요?
 - Java의 Functional interface는 무엇인가요?
-- foreach를 사용할 수 있는 자료구조는 어떤 인터페이스를 상속 받고 있나요?
 - Fast-fail iterator는 무엇이고 어떤 것을 위해 사용되는 건가요?
 - 자바의 synchronized 키워드에 대해 설명해주시고 Reentrant Lock와의 차이는 무엇인지 말씀해주세요.
 - Java의 synchronized Lock 범위에 대해서 알려주세요. (Class Lock, Instance Lock)
@@ -21,7 +20,6 @@
 - 스레드에서 Race condition에 대해서 설명해주세요.
 - Java final 키워드에 대해서 설명해주세요. 각각의 쓰임에 따라 어떻게 동작하나요? (Class, Variable)
 - String이 final인 이유는 무엇인가요?
-- 객체 지향의 클래스, 객체, 인스턴스 차이에 대해서 설명해 주세요.
 - 불변 객체는 무엇이고 Java에서 어떻게 구현할까요?
 - Interface와 Abstract Class의 차이는 무엇인가요?
 - Interface가 사용되면 좋은 시점은 언제일까요?
