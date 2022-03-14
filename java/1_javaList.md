@@ -21,7 +21,6 @@
 - Java final 키워드에 대해서 설명해주세요. 각각의 쓰임에 따라 어떻게 동작하나요? (Class, Variable)
 - String이 final인 이유는 무엇인가요?
 - 불변 객체는 무엇이고 Java에서 어떻게 구현할까요?
-- Interface와 Abstract Class의 차이는 무엇인가요?
 - Interface가 사용되면 좋은 시점은 언제일까요?
 - Abstract Class가 사용되면 좋은 시점은 언제일까요?
 - Interface와 Abstract Class를 같이 상속받는 경우에는 왜 그렇게 작성하였을까요?
