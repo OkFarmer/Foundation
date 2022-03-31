@@ -34,7 +34,6 @@
 - Java Compiler는 문자열 연산 최적화를 어떻게 진행하나요? (String Builder, String...)
 - SringBuilder를 사용하는 것과 String을 사용하여 연산하는 것에서 어떠한 큰 차이가 존재할까요?
 - Stack을 사용하지 못하는 상황에서 대체할 수 있는 Collection은 무엇이 있을까요?
-- Vector와 Stack을 사용하지 않는 이유는 무엇인가요?
 - Lock Stripping은 무엇이고 어떠한 자료구조가 해당 방식을 구현하였나요?
 - HashMap에 대해서 설명해주시고, Hash Collision 발생 시 자바는 어떻게 대처하나요?
 - Hash Collision이 많이 발생할 경우 어떤 최적화가 진행될까요?
